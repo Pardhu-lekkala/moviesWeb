@@ -1,0 +1,124 @@
+.main-cont{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.search-cont{
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-1{
+    width: 90%;
+    outline: none;
+    border: 0px;
+}
+
+.img-1{
+    height: 100%;
+    width: 25px;
+    background-color: #7089E0;;
+}
+
+.main-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+    margin-left: 15px;
+
+}
+
+.card-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 0px;
+}
+
+.card-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.card{
+    height: 180px;
+    background-size: cover;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.img-2{
+    height: 100%;
+}
+
+.desc-cont{
+    background-color: #D9D9D9;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-3{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.desc-cont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-num{
+    font-family: 'Helvetica Neue LT Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #00000099;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.arrow-img{
+    height: 10px;
+    width: 15px;
+}
