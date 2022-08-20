@@ -14,6 +14,11 @@ import { NgxSpinnerService } from "ngx-spinner";
 export class HomeComponent implements OnInit {
   
   public movies!: Array<Movie>;
+  public selectedIndex: any;
+
+changeColor(i:any){
+    this.selectedIndex = i;
+  }
   movieList: any 
   pages=['1','2','3','4','5','6']
   pageVal=1

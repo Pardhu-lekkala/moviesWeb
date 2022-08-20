@@ -21,9 +21,9 @@
 </div>
 <div  class="page-cont">
 <img src="assets/icon-2.png" class="arrow-img"/>
-<div class="cont-4" *ngFor="let page of pages">
+<div class="cont-4" *ngFor="let page of pages;let i= index">
     <div (click)="getPageVal(page)" style="cursor: pointer;">
-        <p class="page-num">{{page}}</p>
+        <p [ngClass]="{'selected-color' : i==selectedIndex}" (click)="changeColor(i)" class="page-num">{{page}}</p>
     </div>
 </div>
 <img src="assets/icon-1.png" class="arrow-img" style="margin-left: 30px;"/>

@@ -122,3 +122,7 @@
     height: 10px;
     width: 15px;
 }
+
+.selected-color{
+    color:  #FF6A63;
+  }

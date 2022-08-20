@@ -4,7 +4,6 @@ export interface Movie{
     vote_average:number,
     description:string,
     release_date:string,
-    year:string,
     id:string
 }
 
@@ -14,8 +13,6 @@ export interface MovieDetails{
     vote_average:number,
     overview:string,
     release_date:string,
-    status:string,
-    tagline:string,
     id:string,
     vote_count:Number,
     original_language:string
